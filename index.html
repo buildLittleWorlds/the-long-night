@@ -16,22 +16,17 @@
     html { background: var(--paper); color: var(--ink); }
     body { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; line-height: 1.75; -webkit-font-smoothing: antialiased; }
     main { width: min(100% - 3rem, 40rem); margin: 0 auto; padding: 4rem 0 5rem; }
-    .preface { margin: 0 0 3rem; padding: 0 0 0 1.25rem; border-left: 2px solid var(--line); color: var(--muted); font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.7; }
-    .preface p { margin: 0; }
     h1 { margin: 0 0 2.5rem; color: var(--accent); font-size: clamp(2.75rem, 7vw, 4rem); line-height: 1.12; font-weight: 400; letter-spacing: -0.045em; text-wrap: balance; }
     article p { margin: 0 0 1.15em; }
     article p:last-child { margin-top: 1.7em; margin-bottom: 0; }
     .endmark { width: .4rem; height: .4rem; margin: 2.5rem auto 0; background: var(--accent); transform: rotate(45deg); }
     ::selection { background: #dbe5df; color: #182d2c; }
-    @media (max-width: 480px) { body { font-size: 1.125rem; line-height: 1.7; } main { width: calc(100% - 2.5rem); padding: 2rem 0 3rem; } .preface { font-size: .9375rem; margin-bottom: 2rem; padding-left: 1rem; } h1 { margin-bottom: 1.75rem; } }
-    @media print { html { background: #fff; color: #000; } body { font-size: 11pt; line-height: 1.5; } main { width: 100%; padding: 0; } .preface { font-size: 9pt; margin-bottom: 1.5rem; } h1 { font-size: 28pt; margin-bottom: 1.25rem; } p { orphans: 3; widows: 3; } }
+    @media (max-width: 480px) { body { font-size: 1.125rem; line-height: 1.7; } main { width: calc(100% - 2.5rem); padding: 2rem 0 3rem; } h1 { margin-bottom: 1.75rem; } }
+    @media print { html { background: #fff; color: #000; } body { font-size: 11pt; line-height: 1.5; } main { width: 100%; padding: 0; } h1 { font-size: 28pt; margin-bottom: 1.25rem; } p { orphans: 3; widows: 3; } }
   </style>
 </head>
 <body>
   <main>
-    <aside class="preface" aria-label="Introduction">
-      <p>My choice is <strong>10. “The World Without Sacrifice.”</strong> Its strongest turn comes <em>after</em> effortless kindness becomes possible: people try to bring sacrifice back, even though nobody needs it. That makes the experiment more than an argument against equating effort with value. It asks whether something genuinely valuable might disappear when effort becomes unnecessary—and whether deliberately restoring effort could recover it.</p>
-    </aside>
     <article aria-labelledby="story-title">
       <h1 id="story-title">The Long Night</h1>
       <p>For forty years, Miriam had helped people.</p>
