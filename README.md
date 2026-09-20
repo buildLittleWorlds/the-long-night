@@ -4,7 +4,7 @@ A thought experiment about kindness, sacrifice, and value.
 
 [Read The Long Night](https://buildlittleworlds.github.io/the-long-night/)
 
-The supplied narrative and introductory note are preserved in `index.html`. The page is a self-contained, responsive HTML document with print styling and no external dependencies, JavaScript, or tracking.
+The story is preserved in `index.html`. The page is a self-contained, responsive HTML document with print styling and no external dependencies, JavaScript, or tracking.
 
 ## Publishing
 
