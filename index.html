@@ -23,6 +23,11 @@
     ::selection { background: #dbe5df; color: #182d2c; }
     @media (max-width: 480px) { body { font-size: 1.125rem; line-height: 1.7; } main { width: calc(100% - 2.5rem); padding: 2rem 0 3rem; } h1 { margin-bottom: 1.75rem; } }
     @media print { html { background: #fff; color: #000; } body { font-size: 11pt; line-height: 1.5; } main { width: 100%; padding: 0; } h1 { font-size: 28pt; margin-bottom: 1.25rem; } p { orphans: 3; widows: 3; } }
+    .related { margin-top: 3.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
+    .related .eyebrow { margin: 0 0 .75rem; color: var(--muted); font: 500 .875rem/1.5 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+    .related h2 { margin: 0 0 1.5rem; color: var(--accent); font-size: clamp(1.75rem, 5vw, 2.25rem); font-weight: 400; line-height: 1.2; letter-spacing: -.025em; text-wrap: balance; }
+    .related p { margin: 0 0 1.15em; }
+    .related p:last-child { margin-bottom: 0; }
   </style>
 </head>
 <body>
@@ -76,6 +81,16 @@
       <p>Anna lay awake for a little while, wondering whether her grandmother was preserving something precious or teaching people to mistake the price of kindness for kindness itself.</p>
     </article>
     <div class="endmark" aria-hidden="true"></div>
+    <section class="related" aria-labelledby="pianist-title">
+      <p class="eyebrow">A related thought experiment</p>
+      <h2 id="pianist-title">The Pianist Who Arrived Overnight</h2>
+      <p>Two pianists perform equally magnificent concerts.</p>
+      <p>One spent twenty years learning. The other received a procedure yesterday that installed exactly the same musical capacities. The procedure supplied understanding, sensitivity, judgment, and the ability to improvise—not merely the ability to reproduce finger movements. Neither pianist is deceiving the audience.</p>
+      <p>Their performances are equally moving. They can answer the same questions, teach equally well, and respond equally intelligently to unfamiliar music.</p>
+      <p><strong>Should they receive equal applause, equal payment, and equal respect? Do those three questions have the same answer?</strong></p>
+      <p>Now imagine that the second pianist feels ashamed. To make the achievement legitimate, she proposes spending the next twenty years performing the exercises the first pianist completed. These exercises will add nothing to her already complete abilities.</p>
+      <p>Would doing so earn something she presently lacks? Can effort acquire value when it comes <strong>after</strong> the achievement it supposedly justifies?</p>
+    </section>
   </main>
 </body>
 </html>
